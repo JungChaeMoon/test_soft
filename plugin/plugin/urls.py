@@ -19,5 +19,5 @@ from plugin import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('plug/', views.view.as_view(), name='plug'),
+    path('plug/', views.view, name='plug'),
 ]
